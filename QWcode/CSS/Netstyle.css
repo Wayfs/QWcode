@@ -1,0 +1,270 @@
+body{ /* Arrière plan général + supression contour */
+	background-color:black;
+	margin: 0;
+}
+
+.pannel img{ /* Création d'image (arrière plan) pannel netflix */
+	/* Flux crée/séparé pour l'image */
+	position: absolute;
+
+	width: 100%;
+	height: 700px;
+	object-fit: cover;
+}
+
+.menu{ /* Regroupe le logo et les boutons */
+	/*Flux normal ( en haut )*/
+	position:relative;
+	display:flex;
+	align-items:center;
+}
+
+.logo{ /* Placement du logo */
+	padding-top:24px;
+	padding-left:203px;
+}
+
+.boutons{ /* Caractéristique des 2 boutons */
+	/* Texte */
+	font-size: 15px;
+	font-family: system-ui;
+	font-weight: bold;
+	color:white;
+
+	position:absolute;
+	display:flex;
+
+	right:11%;
+	top:12px;
+}
+
+.langue{ /* Caractéristique langue */
+	border: 1px solid white;
+	border-radius:3px;
+
+	background-color:transparent;
+
+	/* Tailles des boutons */
+	padding:5px;
+	padding-left:15px;
+	padding-right:15px;
+	margin:10px;
+}
+
+.connexion{ /* Caractéristique connexion */
+	border-radius:3px;
+
+	background-color:red;
+
+	/* Tailles des boutons */
+	padding:5px;
+	padding-left:15px;
+	padding-right:15px;
+	margin:10px;
+	transition:all 0.25s;
+}
+
+.connexion:hover { /* Survole du bouton */
+	background-color:#C60000;
+}
+
+a { /* Paramètrage de sliens */
+	text-decoration:none;
+	color:white;
+}
+
+.aligntexte{
+	position:relative;
+
+	display:flex;
+	justify-content:center;
+
+	top:125px;
+}
+
+.titre{
+	position:relative;
+	width:1200px;
+}
+
+.titre h1{
+	position:relative;
+	text-align:center;
+
+	color:white;
+
+	font-size:50px;
+	font-family:arial black;
+	
+}
+
+.code{
+	position:relative;
+	display:flex;
+
+	color:white;
+
+	text-align:center;
+	align-items:center;
+	justify-content:center;
+	top:100px;
+}
+
+h2{
+	display:flex;
+}
+
+.detecte{
+	display:flex;
+	text-decoration:underline;
+}
+
+h3{
+	position:relative;
+
+	top:90px;
+	text-align:center;
+
+	color:white;
+	font-family:system-ui;
+	font-weight:normal;
+}
+
+/* -------------------- */
+
+.container{ /* contient le formulaire */
+	position:relative;
+	display:flex;
+	top:125px;
+
+	justify-content:center;
+}
+
+.formulaire{
+	position:relative;
+	display:flex;
+	width:550px;
+	height:500px;
+
+	background-color:rgba(20, 20, 20, 0.5);
+	border-radius:5px;
+
+	justify-content:center;
+	align-items:center;
+
+}
+
+.txtLog{
+	color:white;
+	font-family:arial;
+}
+
+.Login{
+	position:relative;
+
+	background-color:black;
+	color:white;
+
+	border:none;
+	border-radius:5px;
+	height:40px;
+	width:250px;
+
+	top:10px;
+}
+
+.Pass{
+	position:relative;
+
+	background-color:black;
+	color:white;
+
+	border:none;
+	border-radius:5px;
+	height:40px;
+	width:250px;
+
+	top:25px;
+}
+
+.new{
+	position:relative;
+	display:flex;
+
+	top:15px;
+}
+
+h6{
+	position:relative;
+	color:white;
+	font-size:17px;
+	font-family:arial;
+}
+
+.userStat[type=checkbox]{
+	position:relative;
+}
+
+.idLog{
+	position:relative;
+	background-color:red;
+
+	border:none;
+	border-radius:5px;
+	width:250px;
+	height:40px;
+
+	font-size: 15px;
+	font-family: system-ui;
+	font-weight: normal;
+	color:white;
+	text-align:center;
+
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
+	transition:all 0.25s;
+	top:5px;
+}
+
+.idLog:hover{
+	background-color:#C60000;
+}
+
+.check h6{
+	font-family:system-ui;
+	font-weight:normal;
+	text-decoration:underline;
+}
+
+.end h6{
+	font-family:system-ui;
+	font-weight:normal;
+	color:grey;
+	bottom:30px;
+}
+
+.end a{
+	color:grey;
+}
+
+/* -------------------- */
+
+footer{
+	position:relative;
+	display:flex;
+	background-color:rgba(30,30,30,0.5);
+
+	top:300px;
+	height:50px;
+	align-items:center;
+	justify-content:center;
+}
+
+.foot a{
+	margin-left:50px;
+	margin-right:50px;
+
+	text-decoration:underline;
+}
